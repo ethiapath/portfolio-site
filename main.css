@@ -1,0 +1,13 @@
+
+body {
+  background-image: linear-gradient(to right, rgb(188, 130, 228), rgb(60, 151, 193));
+  color: linear-gradient(to right,rgb(60, 151, 193), rgb(188, 130, 228) );
+}
+
+
+#title {
+  margin: 0 auto;
+}
+
+
+
