@@ -1,7 +1,11 @@
-
 body {
   background-image: linear-gradient(to right, rgb(188, 130, 228), rgb(60, 151, 193));
   color: linear-gradient(to right,rgb(60, 151, 193), rgb(188, 130, 228) );
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -9,5 +13,22 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+ font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+ font-size: 50px;
+ line-height: 65px;
+}
 
+p {
+ font-family: 'Vollkorn', Georgia, Times, serif;
+ font-size: 16px;
+ line-height: 25px;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+  }
+
+}
 
