@@ -5,7 +5,7 @@
       "src": "www/", 
       "use": "@now/static-builder",
       "config": {
-        "distDir": "www/build"
+        "distDir": "www/build/*"
       }
     }
   ]

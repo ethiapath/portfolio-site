@@ -6,3 +6,13 @@ html, body {
 h1 {
 	text-align: center;
 }
+
+* {
+	border: 1px solid pink;
+}
+
+#container {
+	display: flex; 
+	justify-content: center;
+
+}
