@@ -1,2 +1,4 @@
 [[build]]
-  base:"gatsby-demension"
+  base = "mate"
+  command = "yarn build"
+  publish ="public"
