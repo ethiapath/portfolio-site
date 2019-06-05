@@ -1,4 +1,4 @@
-[[build]]
+[build]
   base = "mate"
   command = "yarn build"
   publish ="public"
